@@ -1,17 +1,301 @@
 <!DOCTYPE html>
+<html>
 <head>
-    <title>layout adaptation</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>CV Adeline Rotin</title>
 </head>
 <body>
-    <div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-      <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAG1xlCkm-c/ySmMyOTH6QGQ3uMbrAptmw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-      </iframe>
+
+    
+<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic|Open+Sans:300,400,500,700|Waiting+for+the+Sunrise|Shadows+Into+Light' rel='stylesheet' type='text/css'>
+<style>
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+   }
+
+  html
+  {
+      font-size:100%;
+  }
+
+  body
+  {
+      -webkit-font-smoothing:antialiased;
+      color:#333332;
+      font-family:Lora, serif;
+      font-size:18px;
+      font-weight:400;
+      line-height:1.4;
+      text-rendering:optimizeLegibility;
+  }
+
+  .skill-set li:hover
+  {
+      background:#3498db;
+  }
+
+  h1
+  {
+      color:rgba(0,0,0,.75);
+  }
+
+  .wrapper
+  {
+      height:100%;
+  }
+
+  .left
+  {
+      background-color:rgba(0,0,0,.025);
+      border-right:1px solid rgba(0,0,0,.05);
+      float:right;
+      height:100%;
+      margin-left:-1px;
+      min-width:256px;
+      position:fixed;
+      width:33.33%;
+
+  }
+
+  .right
+  {
+      float:right;
+      height:100%;
+      position:relative;
+      width:66.66%;
+  }
+
+
+  .name-hero
+  {
+      background:rgba(0,0,0,.001);
+      bottom:0;
+      height:290px;
+      left:0;
+      margin:auto;
+      position:absolute;
+      right:0;
+      top:0;
+      width:85%;
+  }
+
+  .me-img
+  {
+      background:url(https://media-exp1.licdn.com/dms/image/C4E03AQGnLq_IB_mf8Q/profile-displayphoto-shrink_400_400/0/1631022739752?e=1648684800&v=beta&t=eICUjHeH_g9GQEItmEMK1j2gCADwqfjrlccSD_5za58) no-repeat center center ;
+      background-size:100%;
+    background-position:0px;
+      border-radius:100%;
+      height:150px;
+      margin:0 auto;
+      position:relative;
+      width:150px;
+  }
+
+  .name-hero h1
+  {
+      font-family:Open Sans, sans-serif;
+      font-size:1.5em;
+      text-align:center;
+  }
+
+  .name-hero h1 em
+  {
+      color:rgba(0,0,0,.3);
+      font-style:normal;
+      font-weight:700;
+  }
+
+  .name-hero p
+  {
+      color:rgba(0,0,0,.75);
+      font-size:.75em;
+      line-height:1.5;
+      margin:0 8px 0 0;
+      text-align:center;
+  }
+
+  .name-hero .name-text
+  {
+      margin:0 auto;
+      width:85%;
+  }
+
+  .inner
+  {
+      margin:0 auto;
+      max-width:975px;
+      padding:3em;
+  }
+
+  .inner h1
+  {
+      font-size:1.75em;
+  }
+
+  .inner p
+  {
+      color:rgba(0,0,0,.5);
+  }
+
+  .inner p em
+  {
+      color:rgba(0,0,0,1);
+      font-style:normal;
+  }
+
+  .inner section
+  {
+      margin:100px auto;
+  }
+
+  ul
+  {
+      list-style-type:none;
+      margin-top:-10px;
+      max-width:570px;
+      padding:0;
+  }
+
+  .skill-set li
+  {
+      background:rgba(0,0,0,.75);
+      border-radius:5px;
+      color:#FFF;
+      display:inline-block;
+      list-style:none;
+      margin:15px 15px 0 0;
+      padding:10px;
+      text-align:justify;
+  }
+
+  @media screen and (max-width: 48em) {
+      .right,.left
+      {
+          float:none;
+      position:relative !important;
+          width:100%;
+      min-height:500px;
+      }
+    .handmade {
+    text-align:center !important;
+    margin-top:0px !important;
+  }
+
+  @media screen and (max-width: 75em) {
+      body
+  { font-size:16px;}
+  }
+
+  @media screen and (max-width: 60em) {
+      body
+  { font-size:14px;}
+  }
+  .clearfix:after {
+     content: " "; /* Older browser do not support empty content */
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+  }
+  .handmade {
+    text-align:right;
+    margin-top:100px;
+  }
+  .handmade em {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.25em;
+    margin-left:5px;
+  }
+</style>
+
+<div class="wrapper clearfix">
+  <div class="left">
+
+    <div class="name-hero">
+
+      <div class="me-img"></div>
+
+      <div class="name-text">
+
+        <h1>Adeline <em> rotin </em></h1>
+        <p>Saint-gratien</p>
+        <p>adeline.rotin.univ@gmail.com</p>
+  
+
+      </div>
+
     </div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAG1xlCkm-c&#x2F;ySmMyOTH6QGQ3uMbrAptmw&#x2F;view?utm_content=DAG1xlCkm-c&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">
+
+  </div>
+  <div class="right">
+
+    <div class="inner">
+      <section>
+        <h1>Education</h1>
+        <p><em>Master Humanités Numériques parcours Numérique : Enjeux et Technologies</em>  - Université Paris VIII, Vincennes Saint-Denis  | 2025 à maintenant</p>
+        
+        <p> projets: Créer un site web
+Développer une application
+Identifier, trouver, traiter, analyser et interpréter des données avec le logiciel Tableau.
+Analyser l’UX et UI Design d’un site web </p>
+
+        <p> <em>Licence de Lettres Modernes</em>  - Université Paris VIII, Vincennes Saint-Denis | 2014 à 2020
+        </p>
+        
+        <p> 
+Projets :
+Créer un site web
+Développer une application
+Identifier, trouver, traiter, analyser et interpréter des données avec le logiciel Tableau.
+Analyser l’UX et UI Design d’un site web </p>
+      
+      </section>
+      <section>
+        <h1>Technical Skills</h1>
+        <ul class="skill-set">
+          <li>Cycle de vie d'un projet</li>
+          <li>Agile Waterfall</li>
+          <li>Asana</li>
+          <li>Trello</li>
+          <li>CSS3</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+          <li>UI Design</li>
+          <li>SQL</li>
+          <li>Visual Studio code</li>
+        </ul>
+      </section>
+      <section>
+        <h1>Certifications</h1>
+        <p><em>Google Project Management specialization (2025)</em></p>
+        <p>Foundations of Project Management</p>
+        <p>Project Initiation: Starting a Successful Project</p>
+        <p>Project Planning: Putting It All Together</p>
+        <p>Project Execution: Running the Project</p>
+        <p>Agile Project Management</p>
+        <p>Capstone: Applying Project Management in the Real World</p>
+      </section>
+      <section>
+        <h1>Personal Interests</h1>
+        <ul class="skill-set">
+          <li>Pilates</li>
+          <li>Musculation</li>
+          <li>Piano</li>
+          <li>lecture</li>
+         
+        </ul>
+      </section>
+      <section>
+        <div class="handmade">
+          <p>handmade by <em> Anthony Adamski</em></p>
+        </div>
+      </section>
+    </div>
+
+  </div>
+
+</div>
 </body>
 </html>
